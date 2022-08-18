@@ -23,17 +23,37 @@
 .home .cards h4 {
   margin: 0 0 0 10px;
 }
+.home .cards .categories ul {
+  display: flex;
+  list-style: none;
+  width: 83vw;
+  border-bottom: 5px solid #E2E2EA;
+  margin: 5px;
+}
+.home .cards .categories .catlink {
+  margin: 10px 10px 0 10px;
+  width: 16vw;
+  justify-content: center;
+}
+.home .cards .categories .catlink2 {
+  margin: 10px 10px 0 10px;
+  width: 16vw;
+  justify-content: center;
+  border-bottom: 5px solid #5541D7;
+}
 .home .cards .food {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .home .cards .drink {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .home .container {
   box-shadow: 4px 4px rgb(156, 156, 224);
-  width: 20vw;
+  width: 25vw;
   margin: 10px;
   border: 1px solid rgb(156, 156, 224);
   border-radius: 10px;
@@ -43,12 +63,15 @@
   border-radius: 12px;
 }
 .home .container .smallcard {
-  width: 255px;
-  height: 130px;
+  width: 25vw;
+  height: 25vh;
   border-radius: 10px;
   background-color: #E2E2EA;
 }
+.home .container b {
+  margin-top: 5px;
+}
 .home .container p {
-  margin: 0px;
+  margin-top: 5px;
   color: #42BDA1;
 }/*# sourceMappingURL=Home.css.map */

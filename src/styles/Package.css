@@ -1,0 +1,62 @@
+.package {
+  background-color: #F7F7FC;
+  width: 100vw;
+  height: 190vh;
+}
+.package .form {
+  margin: 20px;
+  background-color: #FFFFFF;
+}
+.package .form .id {
+  display: flex;
+  flex-direction: column;
+}
+.package .form .label .h2 {
+  margin: 10px;
+}
+.package .form .input {
+  height: 10vh;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: #F7F7FC;
+  border: 1px solid #E2E2EA;
+  width: 90vw;
+}
+.package .form .idesc {
+  height: 30vh;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: #F7F7FC;
+  border: 1px solid #E2E2EA;
+  width: 90vw;
+}
+.package .form .photo {
+  display: flex;
+  margin: 10px;
+}
+.package .form .photo .frame {
+  width: 10vw;
+  height: 20vh;
+  margin: 10px;
+  background-color: #E2E2EA;
+}
+.package .submit {
+  margin: 20px;
+}
+.package .submit .btn1 {
+  background-color: #5541D7;
+  color: #FFFFFF;
+  width: 5vw;
+  height: 8vh;
+  border-radius: 10px;
+  border: 1px solid #5541D7;
+  margin: 5px;
+  font-size: 20px;
+}
+.package .submit .btn2 {
+  border: 1px solid #F7F7FC;
+  margin: 5px;
+  background-color: #F7F7FC;
+  color: #92929D;
+  font-size: 20px;
+}/*# sourceMappingURL=Package.css.map */

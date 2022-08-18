@@ -1,0 +1,69 @@
+@import '../variables/Variables.scss';
+.package{
+    background-color:$backcol3 ;
+    width: 100vw;
+  height: 190vh;
+  .form{
+    margin: 20px;
+    background-color:$backcol4 ;
+    .id{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .label{
+       
+        .h2{
+            margin: 10px;
+            
+        }
+    }
+    .input{
+        height: 10vh;
+        border-radius: 10px;
+        margin: 5px;
+        background-color:$backcol3 ;
+        border: 1px solid $backcol2;
+        width: 90vw;
+    }
+    .idesc{
+        height: 30vh;
+        border-radius: 10px;
+        margin: 5px;
+        background-color:$backcol3 ;
+        border: 1px solid $backcol2;
+        width: 90vw;
+    }
+  .photo{
+    display: flex;
+    margin: 10px;
+    .frame{
+        width: 10vw;
+        height: 20vh;
+        margin: 10px;
+        background-color:$backcol2 ;
+    }
+  }
+  
+  }
+  .submit{
+    margin: 20px;
+    .btn1{
+        background-color:$backcol1 ;
+        color:$backcol4 ;
+        width: 5vw;
+        height: 8vh;
+        border-radius: 10px;
+        border: 1px solid $backcol1;
+        margin: 5px;
+        font-size: 20px;
+    }
+    .btn2{
+        border: 1px solid $backcol3;
+        margin: 5px;
+        background-color: $backcol3;
+        color: $textcol3;
+        font-size: 20px;
+    }
+  }
+}
