@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/internship/static/css/main.3585e280.css",
-    "main.js": "/internship/static/js/main.b83b1f97.js",
+    "main.js": "/internship/static/js/main.2190ba53.js",
     "static/media/customer.svg": "/internship/static/media/customer.615f68abf48ef2195c904d03d7b421bd.svg",
     "static/media/seettings.svg": "/internship/static/media/seettings.362eca1a2a87463bde2850d5da8cf4f0.svg",
     "static/media/coupon.svg": "/internship/static/media/coupon.807a6bac2d372d3fcf6cb15dc734a0c4.svg",
@@ -11,10 +11,10 @@
     "static/media/Package.svg": "/internship/static/media/Package.acabd514a775d975045f9428f3f4a105.svg",
     "static/media/orders.svg": "/internship/static/media/orders.c7fdb23160495c8d29c8663cca154a9f.svg",
     "main.3585e280.css.map": "/internship/static/css/main.3585e280.css.map",
-    "main.b83b1f97.js.map": "/internship/static/js/main.b83b1f97.js.map"
+    "main.2190ba53.js.map": "/internship/static/js/main.2190ba53.js.map"
   },
   "entrypoints": [
     "static/css/main.3585e280.css",
-    "static/js/main.b83b1f97.js"
+    "static/js/main.2190ba53.js"
   ]
 }
