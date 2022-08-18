@@ -1,0 +1,35 @@
+@import "../variables/Variables.scss";
+.sidebar {
+  display: flex;
+ 
+  .navigation {
+    display: flex;
+    border: 3px solid $backcol2;
+    
+    width: 100%;
+   
+  }
+  .links {
+    border-right: 3px solid $backcol2;
+    
+    place-items: center;
+    align-items: center;
+    margin: 0px;
+    ul {
+      list-style: none;
+
+      justify-content: center;
+      li {
+        margin: 30px 30px 10px 0px;
+        text-decoration: none;
+        &:hover {
+          background-color: $backcol1;
+        }
+      }
+
+      .setting {
+        margin-top: 74vh;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.sidebar {
+  display: flex;
+}
+.sidebar .navigation {
+  display: flex;
+  border: 3px solid #E2E2EA;
+  width: 100%;
+}
+.sidebar .links {
+  border-right: 3px solid #E2E2EA;
+  place-items: center;
+  align-items: center;
+  margin: 0px;
+}
+.sidebar .links ul {
+  list-style: none;
+  justify-content: center;
+}
+.sidebar .links ul li {
+  margin: 30px 30px 10px 0px;
+  text-decoration: none;
+}
+.sidebar .links ul li:hover {
+  background-color: #5541D7;
+}
+.sidebar .links ul .setting {
+  margin-top: 74vh;
+}/*# sourceMappingURL=Sidebar.css.map */

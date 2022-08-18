@@ -1,0 +1,38 @@
+.header {
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #E2E2EA;
+  height: 10vh;
+}
+.header .rightside {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.header .rightside .roundicon {
+  width: 7vh;
+  height: 7vh;
+  border-radius: 50%;
+  margin: 10px;
+  background-color: #E2E2EA;
+}
+.header .rightside .cashier h4 {
+  margin: 0;
+}
+.header .rightside .cashier p {
+  margin: 0;
+  color: #E2E2EA;
+}
+.header .leftside {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.header .leftside .icon {
+  width: 7vh;
+  height: 7vh;
+  border-radius: 5px;
+  background-color: #E2E2EA;
+}/*# sourceMappingURL=Header.css.map */
